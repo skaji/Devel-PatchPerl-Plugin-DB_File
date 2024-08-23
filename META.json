@@ -6,7 +6,9 @@
   "name": "_",
   "prereqs": {
     "runtime": {
-      "requires": {}
+      "requires": {
+        "perl": "v5.40"
+      }
     }
   },
   "version": "1",

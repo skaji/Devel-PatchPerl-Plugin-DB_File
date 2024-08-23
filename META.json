@@ -1,0 +1,14 @@
+{
+  "dynamic_config": 0,
+  "meta-spec": {
+    "version": 2
+  },
+  "name": "_",
+  "prereqs": {
+    "runtime": {
+      "requires": {}
+    }
+  },
+  "version": "1",
+  "x_static_install": 1
+}

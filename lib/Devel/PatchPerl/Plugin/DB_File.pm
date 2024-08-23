@@ -1,9 +1,11 @@
 package Devel::PatchPerl::Plugin::DB_File;
-use v5.40;
+use v5.16;
+use warnings;
 
 use version;
 
-sub patchperl ($class, %argv) {
+sub patchperl {
+    my ($class, %argv) = @_;
     if ($^O ne "darwin") {
         return 1; # XXX
     }
@@ -29,3 +31,5 @@ sub patchperl ($class, %argv) {
     rename "$file.tmp", $file or die $!;
     return 1;
 }
+
+1;

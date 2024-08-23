@@ -7,7 +7,7 @@
   "prereqs": {
     "runtime": {
       "requires": {
-        "perl": "v5.40"
+        "perl": "v5.16"
       }
     }
   },
